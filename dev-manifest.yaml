@@ -15,7 +15,7 @@ spec:
       containers:
         - name: cody-api
         # This image is going to be the path to the image you create in a future step
-          image: us-docker.pkg.dev/scrum-team6/cody-api/api-test
+          image: us-docker.pkg.dev/scrum-team6/cody-api/api-tests
           ports:
             - containerPort: 3000
           resources:
