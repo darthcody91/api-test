@@ -23,8 +23,8 @@ spec:
               cpu: ".5"
               memory: "500Mi"
             requests:
-              cpu: ".25"
-              memory: "250Mi"
+              cpu: ".1"
+              memory: "100Mi"
           livenessProbe:
             httpGet:
               path: /
